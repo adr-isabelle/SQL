@@ -1,0 +1,25 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT, price INTEGER);
+INSERT INTO store VALUES (1, "Shirts", 5);
+INSERT INTO store VALUES (2, "Bikes", 10);
+INSERT INTO store VALUES (3, "Cups", 2);
+INSERT INTO store VALUES (4, "Cans", 4);
+INSERT INTO store VALUES (5, "Sticks", 5);
+INSERT INTO store VALUES (6, "Dogs", 12);
+INSERT INTO store VALUES (7, "Rats", 1);
+INSERT INTO store VALUES (8, "Chips", 6);
+INSERT INTO store VALUES (9, "Soda", 4);
+INSERT INTO store VALUES (10, "Nuts", 6);
+INSERT INTO store VALUES (11, "Phones", 77);
+INSERT INTO store VALUES (12, "Sharks", 150);
+INSERT INTO store VALUES (13, "Fish", 42);
+INSERT INTO store VALUES (14, "Headphones", 64);
+INSERT INTO store VALUES (15, "Lighters", 11);
+SELECT * FROM store WHERE price > 0 ORDER BY price;
+SELECT * FROM store;
+
+
+--display the database ordered by price. 
+SELECT * FROM store
+ORDER BY price desc; 
+
+
